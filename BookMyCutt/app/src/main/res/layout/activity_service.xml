@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ServiceActivity"
+    android:padding="20dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/chicle"
+        android:text="BookMyCutt"
+        android:textColor="#2771b0"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/serviceimage"
+        android:layout_width="176dp"
+        android:layout_height="162dp"
+        android:layout_marginTop="104dp"
+        android:src="@drawable/addimage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/servicename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Service Name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/serviceimage"
+        app:layout_constraintStart_toStartOf="@+id/serviceimage"
+        app:layout_constraintTop_toBottomOf="@+id/serviceimage" />
+
+    <EditText
+        android:id="@+id/timings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Time Required"
+        android:inputType="phone"
+        app:layout_constraintStart_toStartOf="@+id/servicename"
+        app:layout_constraintTop_toBottomOf="@+id/servicename" />
+
+    <EditText
+        android:id="@+id/no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Price of Service"
+        android:inputType="phone"
+        app:layout_constraintStart_toStartOf="@+id/timings"
+        app:layout_constraintTop_toBottomOf="@+id/timings" />
+
+    <Button
+        android:id="@+id/submit"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:drawableLeft="@drawable/submit"
+        android:text="NEXT"
+        android:textColor="@color/White"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/no" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

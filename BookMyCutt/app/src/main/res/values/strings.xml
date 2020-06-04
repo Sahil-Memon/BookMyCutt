@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BookMyCutt</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="first_name">First Name *</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_address">Email Address *</string>
+    <string name="mobile_number">Mobile Number *</string>
+    <string name="address">Address</string>
+    <string name="booking_note">Booking Note</string>
+    <string name="login_to_shedule">Login to Schedule</string>
+    <string name="cut_summary">Thank for booking your appointment with \BookMyCutt, Salon Name</string>
+    <string name="select_time">Select Time</string>
+    <string name="select_date">Select Date</string>
+    <string name="def_cd">def</string>
+    <string name="NEXT">NEXT</string>
+    <string name="dot">\u2022</string>
+</resources>

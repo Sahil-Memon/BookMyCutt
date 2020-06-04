@@ -1,0 +1,101 @@
+{
+  "project_info": {
+    "project_number": "828404640330",
+    "firebase_url": "https://bookmycutt.firebaseio.com",
+    "project_id": "bookmycutt",
+    "storage_bucket": "bookmycutt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828404640330:android:f85fec741f0368bd7494b3",
+        "android_client_info": {
+          "package_name": "com.example.bookmycutt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828404640330-pqqa08v08qivln78hfiolh6knut5vnmo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bookmycutt",
+            "certificate_hash": "0b9450fda4b1d3a008c79db6d15c1e4fbef879ea"
+          }
+        },
+        {
+          "client_id": "828404640330-kf3a9lhuhii8lvuu89ehlcsgl1o97sat.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bookmycutt",
+            "certificate_hash": "594e3c8a916f6ca4fcddcfa5b100fa77105aa489"
+          }
+        },
+        {
+          "client_id": "828404640330-63eml0i51kk62osah6prgsf0lr25re35.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1SPR4UUAqDZPSSj_XDmyUzcEB0HpZ8ZM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828404640330-63eml0i51kk62osah6prgsf0lr25re35.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828404640330:android:4a3f5c0cae5d2b007494b3",
+        "android_client_info": {
+          "package_name": "com.example.shopdetailtesting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828404640330-49bksvo48lieu2i1kvb6lgdale5utlsc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shopdetailtesting",
+            "certificate_hash": "594e3c8a916f6ca4fcddcfa5b100fa77105aa489"
+          }
+        },
+        {
+          "client_id": "828404640330-sbdlndal6v24dbhaf9bre3iu9omvqh7m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shopdetailtesting",
+            "certificate_hash": "0b9450fda4b1d3a008c79db6d15c1e4fbef879ea"
+          }
+        },
+        {
+          "client_id": "828404640330-63eml0i51kk62osah6prgsf0lr25re35.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1SPR4UUAqDZPSSj_XDmyUzcEB0HpZ8ZM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828404640330-63eml0i51kk62osah6prgsf0lr25re35.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
