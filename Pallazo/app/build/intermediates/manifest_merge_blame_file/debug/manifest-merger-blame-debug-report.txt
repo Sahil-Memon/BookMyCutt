@@ -1,0 +1,147 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.pallazo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\Sahil\AndroidStudioProjects\Pallazo\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Sahil\AndroidStudioProjects\Pallazo\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\Sahil\AndroidStudioProjects\Pallazo\app\src\main\AndroidManifest.xml:5:5-65
+11-->C:\Users\Sahil\AndroidStudioProjects\Pallazo\app\src\main\AndroidManifest.xml:5:22-62
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\Sahil\AndroidStudioProjects\Pallazo\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\Sahil\AndroidStudioProjects\Pallazo\app\src\main\AndroidManifest.xml:6:22-64
+13
+14    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+15    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Sahil\.gradle\caches\transforms-2\files-2.1\3e824c51aee14a2eb43534159ffb335f\jetified-firebase-database-19.2.1\AndroidManifest.xml:25:5-79
+16-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Sahil\.gradle\caches\transforms-2\files-2.1\3e824c51aee14a2eb43534159ffb335f\jetified-firebase-database-19.2.1\AndroidManifest.xml:25:22-76
+17
+18    <application
+18-->C:\Users\Sahil\AndroidStudioProjects\Pallazo\app\src\main\AndroidManifest.xml:8:5-33:19
+19        android:allowBackup="true"
+19-->C:\Users\Sahil\AndroidStudioProjects\Pallazo\app\src\main\AndroidManifest.xml:9:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.1.0] C:\Users\Sahil\.gradle\caches\transforms-2\files-2.1\bcfc0b80df78591183083cc148e1cf2c\core-1.1.0\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Users\Sahil\AndroidStudioProjects\Pallazo\app\src\main\AndroidManifest.xml:10:9-43
+23        android:label="@string/app_name"
+23-->C:\Users\Sahil\AndroidStudioProjects\Pallazo\app\src\main\AndroidManifest.xml:11:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->C:\Users\Sahil\AndroidStudioProjects\Pallazo\app\src\main\AndroidManifest.xml:12:9-54
+25        android:supportsRtl="true"
+25-->C:\Users\Sahil\AndroidStudioProjects\Pallazo\app\src\main\AndroidManifest.xml:13:9-35
+26        android:testOnly="true"
+27        android:theme="@style/AppTheme" >
+27-->C:\Users\Sahil\AndroidStudioProjects\Pallazo\app\src\main\AndroidManifest.xml:14:9-40
+28        <activity android:name="com.example.pallazo.ResponseActivity" />
+28-->C:\Users\Sahil\AndroidStudioProjects\Pallazo\app\src\main\AndroidManifest.xml:15:9-63
+28-->C:\Users\Sahil\AndroidStudioProjects\Pallazo\app\src\main\AndroidManifest.xml:15:19-51
+29
+30        <uses-library
+30-->C:\Users\Sahil\AndroidStudioProjects\Pallazo\app\src\main\AndroidManifest.xml:17:9-19:40
+31            android:name="org.apache.http.legacy"
+31-->C:\Users\Sahil\AndroidStudioProjects\Pallazo\app\src\main\AndroidManifest.xml:18:13-50
+32            android:required="false" />
+32-->C:\Users\Sahil\AndroidStudioProjects\Pallazo\app\src\main\AndroidManifest.xml:19:13-37
+33
+34        <activity android:name="com.example.pallazo.ScanActivity" />
+34-->C:\Users\Sahil\AndroidStudioProjects\Pallazo\app\src\main\AndroidManifest.xml:21:9-50
+34-->C:\Users\Sahil\AndroidStudioProjects\Pallazo\app\src\main\AndroidManifest.xml:21:19-47
+35        <activity android:name="com.example.pallazo.MainActivity" >
+35-->C:\Users\Sahil\AndroidStudioProjects\Pallazo\app\src\main\AndroidManifest.xml:22:9-28:20
+35-->C:\Users\Sahil\AndroidStudioProjects\Pallazo\app\src\main\AndroidManifest.xml:22:19-47
+36            <intent-filter>
+36-->C:\Users\Sahil\AndroidStudioProjects\Pallazo\app\src\main\AndroidManifest.xml:23:13-27:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Users\Sahil\AndroidStudioProjects\Pallazo\app\src\main\AndroidManifest.xml:24:17-69
+37-->C:\Users\Sahil\AndroidStudioProjects\Pallazo\app\src\main\AndroidManifest.xml:24:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Users\Sahil\AndroidStudioProjects\Pallazo\app\src\main\AndroidManifest.xml:26:17-77
+39-->C:\Users\Sahil\AndroidStudioProjects\Pallazo\app\src\main\AndroidManifest.xml:26:27-74
+40            </intent-filter>
+41        </activity>
+42
+43        <meta-data
+43-->C:\Users\Sahil\AndroidStudioProjects\Pallazo\app\src\main\AndroidManifest.xml:30:9-32:57
+44            android:name="preloaded_fonts"
+44-->C:\Users\Sahil\AndroidStudioProjects\Pallazo\app\src\main\AndroidManifest.xml:31:13-43
+45            android:resource="@array/preloaded_fonts" />
+45-->C:\Users\Sahil\AndroidStudioProjects\Pallazo\app\src\main\AndroidManifest.xml:32:13-54
+46
+47        <service
+47-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Sahil\.gradle\caches\transforms-2\files-2.1\3e824c51aee14a2eb43534159ffb335f\jetified-firebase-database-19.2.1\AndroidManifest.xml:29:9-35:19
+48            android:name="com.google.firebase.components.ComponentDiscoveryService"
+48-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Sahil\.gradle\caches\transforms-2\files-2.1\3e824c51aee14a2eb43534159ffb335f\jetified-firebase-database-19.2.1\AndroidManifest.xml:30:13-84
+49            android:directBootAware="true"
+49-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Sahil\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+50            android:exported="false" >
+50-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Sahil\.gradle\caches\transforms-2\files-2.1\3e824c51aee14a2eb43534159ffb335f\jetified-firebase-database-19.2.1\AndroidManifest.xml:31:13-37
+51            <meta-data
+51-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Sahil\.gradle\caches\transforms-2\files-2.1\3e824c51aee14a2eb43534159ffb335f\jetified-firebase-database-19.2.1\AndroidManifest.xml:32:13-34:85
+52                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+52-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Sahil\.gradle\caches\transforms-2\files-2.1\3e824c51aee14a2eb43534159ffb335f\jetified-firebase-database-19.2.1\AndroidManifest.xml:33:17-109
+53                android:value="com.google.firebase.components.ComponentRegistrar" />
+53-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Sahil\.gradle\caches\transforms-2\files-2.1\3e824c51aee14a2eb43534159ffb335f\jetified-firebase-database-19.2.1\AndroidManifest.xml:34:17-82
+54        </service>
+55
+56        <activity
+56-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Sahil\.gradle\caches\transforms-2\files-2.1\715d3680c52f5e5fa6f70b390bbdc028\jetified-play-services-auth-18.0.0\AndroidManifest.xml:23:9-27:75
+57            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+57-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Sahil\.gradle\caches\transforms-2\files-2.1\715d3680c52f5e5fa6f70b390bbdc028\jetified-play-services-auth-18.0.0\AndroidManifest.xml:24:13-93
+58            android:excludeFromRecents="true"
+58-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Sahil\.gradle\caches\transforms-2\files-2.1\715d3680c52f5e5fa6f70b390bbdc028\jetified-play-services-auth-18.0.0\AndroidManifest.xml:25:13-46
+59            android:exported="false"
+59-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Sahil\.gradle\caches\transforms-2\files-2.1\715d3680c52f5e5fa6f70b390bbdc028\jetified-play-services-auth-18.0.0\AndroidManifest.xml:26:13-37
+60            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+60-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Sahil\.gradle\caches\transforms-2\files-2.1\715d3680c52f5e5fa6f70b390bbdc028\jetified-play-services-auth-18.0.0\AndroidManifest.xml:27:13-72
+61        <!--
+62            Service handling Google Sign-In user revocation. For apps that do not integrate with
+63            Google Sign-In, this service will never be started.
+64        -->
+65        <service
+65-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Sahil\.gradle\caches\transforms-2\files-2.1\715d3680c52f5e5fa6f70b390bbdc028\jetified-play-services-auth-18.0.0\AndroidManifest.xml:33:9-36:110
+66            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+66-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Sahil\.gradle\caches\transforms-2\files-2.1\715d3680c52f5e5fa6f70b390bbdc028\jetified-play-services-auth-18.0.0\AndroidManifest.xml:34:13-89
+67            android:exported="true"
+67-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Sahil\.gradle\caches\transforms-2\files-2.1\715d3680c52f5e5fa6f70b390bbdc028\jetified-play-services-auth-18.0.0\AndroidManifest.xml:35:13-36
+68            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+68-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Sahil\.gradle\caches\transforms-2\files-2.1\715d3680c52f5e5fa6f70b390bbdc028\jetified-play-services-auth-18.0.0\AndroidManifest.xml:36:13-107
+69
+70        <activity
+70-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Sahil\.gradle\caches\transforms-2\files-2.1\75e7c473eccef2b3a0eec97fa3a7825b\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+71            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+71-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Sahil\.gradle\caches\transforms-2\files-2.1\75e7c473eccef2b3a0eec97fa3a7825b\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+72            android:exported="false"
+72-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Sahil\.gradle\caches\transforms-2\files-2.1\75e7c473eccef2b3a0eec97fa3a7825b\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+73            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+73-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Sahil\.gradle\caches\transforms-2\files-2.1\75e7c473eccef2b3a0eec97fa3a7825b\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+74
+75        <provider
+75-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Sahil\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+76            android:name="com.google.firebase.provider.FirebaseInitProvider"
+76-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Sahil\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+77            android:authorities="com.example.pallazo.firebaseinitprovider"
+77-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Sahil\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+78            android:exported="false"
+78-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Sahil\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+79            android:initOrder="100" />
+79-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Sahil\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+80
+81        <meta-data
+81-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\Sahil\.gradle\caches\transforms-2\files-2.1\78c7d84389428ba94e7daa5d875d4c1a\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
+82            android:name="com.google.android.gms.version"
+82-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\Sahil\.gradle\caches\transforms-2\files-2.1\78c7d84389428ba94e7daa5d875d4c1a\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
+83            android:value="@integer/google_play_services_version" />
+83-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\Sahil\.gradle\caches\transforms-2\files-2.1\78c7d84389428ba94e7daa5d875d4c1a\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
+84    </application>
+85
+86</manifest>

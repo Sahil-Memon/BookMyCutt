@@ -1,0 +1,2 @@
+rootProject.name='Pallazo'
+include ':app'

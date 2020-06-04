@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "332824455768",
+    "firebase_url": "https://pallazo-895b1.firebaseio.com",
+    "project_id": "pallazo-895b1",
+    "storage_bucket": "pallazo-895b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332824455768:android:519867ddaa3f2aaf3d382d",
+        "android_client_info": {
+          "package_name": "com.example.pallazo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "332824455768-kda14dq1r9m6ul0bct2fh0qgn0c45rjt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTZSwqhUTmJGlue5M8S5dOETWhsEvcvic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "332824455768-kda14dq1r9m6ul0bct2fh0qgn0c45rjt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
